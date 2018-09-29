@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#808080</color>
+    <color name="gray_input">#999999</color>
+    <color name="gray_dark_text">#666666</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_white_bg">#FAFAFA</color>
+    <color name="dark_white">#d2d3f5</color>
+    <color name="color_line">#979797</color>
+    <color name="imgage_corner_bg">#f2f2f2</color>
+    <color name="colorPrimary">#3b6dc5</color>
+    <color name="colorPrimaryDark">#3b6dc5</color>
+    <color name="colorAccent">#6AE0E8</color>
+    <color name="colorAccentFocus">#7ECFE3</color>
+    <color name="color_verify_code">#76CAE0</color>
+    <color name="color_continue_code">#74CBE1</color>
+    <color name="color_score_bg">#60BBD2</color>
+    <color name="color_score_detail">#53B5CE</color>
+    <color name="color_subject">#95D2E1</color>
+
+    <color name="color_true_answer">#F1F1F1</color>
+    <color name="gray_input_light">#BABABA</color>
+    <color name="un_focus_text">#9C9C9C</color>
+    <color name="text_input_focus">#e3e3e3</color>
+    <color name="color_filter_unfocus">#EDEDED</color>
+    <color name="color_filter_focus">#74CBE1</color>
+    <color name="color_filter_sure">#65BAD0</color>
+    <color name="color_examination">#53B5CE</color>
+
+    <!-- grayscale -->
+    <color name="gray_light">#DBDBDB</color>
+    <color name="gray_dark">#5F5F5F</color>
+    <color name="black">#000000</color>       <!-- basic colors -->
+    <color name="black_50">#7f000000</color>       <!-- basic colors -->
+    <color name="green">#27D34D</color>
+    <color name="blue">#2A91BD</color>
+    <color name="orange">#FF9D2F</color>
+    <color name="color_oval_search">#DDEAFD</color>
+    <color name="color_switch_track">#5EB6CD</color>
+    <color name="color_cdcd">#cdcdcd</color>
+
+    <color name="progress_bg">#E2E2E2</color>
+    <color name="un_focus_gray">#D2D2D2</color>
+    <color name="color_error">#D50000</color>
+    <color name="notify_color">#FF2424</color>
+    <color name="wrong_color">#EB6262</color>
+    <color name="color_price">#ff6b6b</color>
+    <color name="color_price_already_charge">#68D48F</color>
+    <color name="gray_line">#E0E0E0</color>
+    <color name="more_color">#5EB6CD</color>
+    <color name="color_search_bg">#3E5CC0</color>
+    <color name="line">#E6E6E6</color>
+    <color name="bg_classes">#6f4df3</color>
+
+    <color name="progress_finish_color">#F6F6F6</color>
+    <color name="progress_plan_unfinish_color">#d2b1e0</color>
+    <color name="progress_course_unfinish_color">#f494c0</color>
+    <color name="progress_test_unfinish_color">#90bae4</color>
+
+    <color name="agency_color1">#71b6f9</color>
+    <color name="agency_color2">#f3b657</color>
+    <color name="agency_color3">#18d9ea</color>
+    <color name="agency_color4">#a1a8fc</color>
+    <color name="color_title_start">#6993D7</color>
+    <color name="color_title_end">#8FB3F4</color>
+    <color name="color_service_btn_bg">#6C98E7</color>
+    <color name="color_text">#7784C4</color>
+
+
+</resources>

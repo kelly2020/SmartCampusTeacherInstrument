@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SmartCampusTeacherInstrument</string>
+    <string name="net_apply">资格认定网上报名</string>
+    <string name="inform_search">信息查询</string>
+    <string name="compile_exam">入编考试</string>
+    <string name="check">资格证年审</string>
+    <string name="education_consult">教育资讯</string>
+    <string name="declare">职称申报</string>
+    <string name="appreciation_service">增值服务</string>
+    <string name="career_develop">职业发展</string>
+    <string name="join">立即加入</string>
+    <string name="real_name">已实名</string>
+    <string name="setting">设置</string>
+    <string name="other">其他</string>
+    <string name="certification">我的资格证</string>
+    <string name="quick_attend">立即参加</string>
+    <string name="teacher_trainment">教师培训</string>
+    <string name="education_train">学历培训</string>
+    <string name="feature_couse">特色课程</string>
+    <string name="train_detail">针对客户的实际问题,提供专业的方案</string>
+    <string name="title_apply">职称报名</string>
+    <string name="title_judge">职称评审</string>
+    <string name="materials_present">材料提交</string>
+    <string name="title_inform_ser">职称信息查询</string>
+    <string name="insurance_service">保险服务 Insurance Service </string>
+    <string name="medical_service">医疗服务  Medical Service </string>
+    <string name="training_service">培训服务 Training Service </string>
+
+
+    <array name="tab_title">
+        <item>首页</item>
+        <item>职业发展</item>
+        <item>增值服务</item>
+        <item>我的</item>
+    </array>
+
+</resources>

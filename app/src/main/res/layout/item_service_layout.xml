@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_10"
+    android:layout_marginLeft="@dimen/margin_10"
+    android:layout_marginRight="@dimen/margin_10"
+    android:background="@mipmap/service_item_bg">
+
+
+    <ImageView
+        android:id="@+id/image_view_servie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:background="@mipmap/insurance_service"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_toRightOf="@id/image_view_servie"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/text_view_servie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_normal_16"
+            android:textColor="@color/white"
+            android:text="增值服务"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_35"
+            android:text="@string/join"
+            android:layout_marginTop="@dimen/margin_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_normal_16"
+            android:background="@drawable/shape_service_btn_bg"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_train_child"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_80"
+    android:layout_marginTop="@dimen/margin_13"
+    android:background="@mipmap/teacher_train">
+
+    <TextView
+        android:id="@+id/text_view_career_type"
+        android:layout_width="@dimen/margin_35"
+        android:layout_height="@dimen/margin_77"
+        android:background="@drawable/shape_gradient_title_bg"
+        android:gravity="center"
+        android:text="@string/teacher_trainment"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/text_view_train_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_13"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_toRightOf="@id/text_view_career_type"
+        android:text="@string/education_train"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_large" />
+
+    <TextView
+        android:id="@+id/text_view_train_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_6"
+        android:layout_alignLeft="@id/text_view_train_type"
+        android:layout_below="@id/text_view_train_type"
+        android:layout_toRightOf="@id/text_view_career_type"
+        android:text="@string/train_detail"
+        android:textColor="@color/white"
+        android:alpha="0.8"
+        android:layout_toLeftOf="@+id/btn_join_train"
+        android:textSize="@dimen/font_small" />
+
+    <Button
+        android:id="@+id/btn_join_train"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_30"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_10"
+        android:background="@drawable/shape_career_white_btn_bg"
+        android:text="@string/quick_attend"
+        android:textColor="@color/color_text" />
+
+</RelativeLayout>

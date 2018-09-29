@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/home_head_bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_25"
+        android:layout_marginRight="@dimen/margin_25">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/layout_mine_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_70"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="2dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_20">
+
+                <LinearLayout
+                    android:id="@+id/layout_individual_inform"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_50"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text_view_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="李丽"
+                        android:textColor="@color/color_3333" />
+
+                    <TextView
+                        android:id="@+id/text_view_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:text="女"
+                        android:textColor="@color/color_9999" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:text="30岁"
+                        android:textColor="@color/color_9999" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_view_real_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout_individual_inform"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:background="@drawable/shape_purple_btn"
+                    android:drawableLeft="@mipmap/star"
+                    android:drawablePadding="@dimen/margin_2"
+                    android:paddingBottom="@dimen/margin_2"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_2"
+                    android:text="@string/real_name"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/text_view_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_1"
+                    android:layout_below="@id/text_view_real_name"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:background="@color/line" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_view_line"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:lineSpacingExtra="@dimen/margin_6"
+                    android:paddingLeft="@dimen/margin_25"
+                    android:paddingRight="@dimen/margin_25"
+                    android:paddingTop="@dimen/margin_10"
+                    android:text="李丽，安徽霍邱县人，1989年出生，毕业于上海师范大学，学前教育专业，本科，学士学位"
+                    android:textColor="@color/color_9999" />
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_message_lay_height"
+            android:layout_marginTop="@dimen/margin_30">
+
+            <ImageView
+                android:layout_width="@dimen/view_message"
+                android:layout_height="@dimen/view_message"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/margin_2"
+                android:layout_marginTop="@dimen/margin_2"
+                android:src="@mipmap/message" />
+
+            <TextView
+                android:id="@+id/img_view_notify"
+                android:layout_width="@dimen/view_message_text"
+                android:layout_height="@dimen/view_message_text"
+                android:layout_gravity="right|top"
+                android:background="@drawable/shape_notify_circle"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small_8"
+                android:visibility="visible" />
+        </FrameLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_mine_detail"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <include layout="@layout/item_mine_certification" />
+
+                <include layout="@layout/item_setting" />
+
+                <include layout="@layout/item_other" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_45">
+
+        <ImageView
+            android:layout_width="@dimen/margin_80"
+            android:layout_height="@dimen/margin_80"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/head" />
+
+    </FrameLayout>
+
+
+</FrameLayout>
